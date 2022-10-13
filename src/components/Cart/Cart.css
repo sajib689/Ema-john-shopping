@@ -3,3 +3,12 @@
     top: 0;
     padding: 30px 20px;
 }
+.clear-cart {
+    width: 80%;
+    margin: auto;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+    font-weight: bold;
+}
