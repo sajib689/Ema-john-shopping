@@ -6,7 +6,9 @@ import Shop from './components/Shop/Shop';
 import Orders from './components/Orders/Orders';
 import Inventory from './components/Inventory/Inventory';
 import { ProductAndCart } from './Loaders/ProductAndCart';
+import { createRequire } from 'module';
 
+const require = createRequire(import.meta.url);
 
 function App() {
   const router = createBrowserRouter([
